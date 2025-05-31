@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: white;
+  }
+
+  .logo {
+    font-weight: bold;
+    font-size: 22px;
+    color: #1f2f56;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #1f2f56;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #458ff6;
+  }
+
+  .signup-btn {
+    background: #f7e9f8;
+    color: #ec4899;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    background: white;
+  }
+
+  .hero-text {
+    max-width: 500px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+    color: #6c7a92;
+    margin-bottom: 30px;
+  }
+
+  .hero-text .consult-btn {
+    background: #458ff6;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+  }
+
+  .hero-img img {
+    width: 450px;
+  }
+  .main-about{
+    background-color: #fff;
+  }
+  .our{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .section-text{
+    display: flex;
+    width: 950px;
+    height: 60px;
+  }
+  .section-card{
+    min-width: 1120px;
+    display: flex;
+  }
+  .box{
+    width: 350px;
+    height: 354px;
+    background-color: #fff;
+
+  }
+  .section-icon{
+    color: #6CBCFC;
+}
+p{
+  display: flex;
+  width: 261px;
+ 
+  color: #7D7987;
+}
